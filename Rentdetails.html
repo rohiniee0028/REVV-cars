@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/Rentdetails.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="nav">
+          <div id="left_div">
+            <img src="https://www.revv.co.in/grapheneImages/newopen/logo.svg">
+            <div>Sanitised. Safe</div>
+          </div>
+          <div id="right_div">
+            <div><a href=""><i class="fa-solid fa-phone"></i> Call us</a></div>
+            <div><a href="">FAQs</a></div>
+            <div data-modal-target="#modal">
+              <span id="spaniv">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+              </span>
+              <a data-modal-target="#modal"> Login or Signup</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- // navbar ends -->
+
+   <div id="main-container">
+      <div id="flexibleDiv">
+        <div id="MycarImage"></div>
+        <div>
+         <h2 id="discountDiv"></h2>
+           <h2 id="statementdiv"> Book for longer duration & enjoy the REVV exclusive benefits and discounts for you
+            <ul id="list">
+               <li>For 1 month Subscription discount - 0%.</li>
+               <li>For 2 months Subscription discount - 5%</li>
+               <li>For 3 months Subscription discount - 10%</li>
+               <li>For 6 months Subscription discount - 15%</li>
+               <li>For 12 months Subscription discount - 20%</li>
+               <li>For 24 months Subscription discount - 25%</li>
+            </ul>
+           </h2>
+        </div>
+      </div>
+      <div id="MycarDetails">
+          <div id="showCarName"></div>
+          <div id="carFeatures">
+             <div>
+                <div>Brand :</div>
+                <div id="showBrand"></div>
+             </div>
+             <div>
+                <div>city :</div> 
+                <div id="showCity"></div>
+             </div>
+             <div>
+                <div>Seater:</div>
+                <div id="showSeats"></div>
+             </div>
+             <div>
+                <div>Fuel type :</div>
+                <div id="showFuel"></div>
+             </div>
+             <div>
+                <div>Car type :</div>
+                <div id="showCartype"></div>
+             </div>
+             <div>
+                <div>Transmission :</div>
+                <div id="showWork"></div>
+             </div>
+             <div>
+                <div>Discount :</div>
+                <select id="duration" onchange="selectduration()">
+                    <option value="1">1 month (No discount)</option>
+                    <option value="2">2 month (-5%)</option>
+                    <option value="3">3 month (-10%)</option>
+                    <option value="6">6 month (-15%)</option>
+                    <option value="12">12 month (-20%)</option>
+                    <option value="24">24 month (-25%)</option>
+                </select>
+             </div>
+             <div>
+                <div>Price :</div>
+                <div id="showPrice"></div>
+             </div>
+             <div>
+                <div id="showButton"></div>
+             </div>
+          </div> 
+      </div>
+   </div>
+   
+    <!-- Serviceable cities box -->
+      
+    <div class="swapidsc">
+      <h1 id="swapsch1">Serviceable cities</h1>
+      <div class="swapdivsc">
+
+          <div>
+              <p>Self Drive Car Rental in Bangalore</p>
+              <p>Self Drive Car Rental in Hyderabad</p>
+              <p>Self Drive Car Rental in Mumbai</p>
+              <p>Self Drive Car Rental in Delhi-NCR</p>
+              <p>Self Drive Car Rental in Chennai</p>
+              <p>Self Drive Car Rental in Pune</p>
+              <p>Self Drive Car Rental in Kolkata</p>
+              <p>Self Drive Car Rental in Ahmedabad</p>
+          </div>
+
+          <div>
+              <p>Self Drive car Rental in Bhubaneswar</p>
+              <p>Self Drive car Rental in Chandigarh</p>
+              <p>Self Drive car Rental in Caimbatore</p>
+              <p>Self Drive car Rental in Jaipur</p>
+              <p>Self Drive car Rental in Kochi</p>
+              <p>Self Drive car Rental in Mangalore</p>
+              <p>Self Drive car Rental in Mysore</p>
+              <p>Self Drive car Rental in Nagpur</p>
+          </div>
+
+          <div>
+              <p>Self Drive Car Rental in Surat</p>
+              <p>Self Drive Car Rental in Tirupati</p>
+              <p>Self Drive Car Rental in Trivandrum</p>
+              <p>Self Drive Car Rental in Vadodare</p>
+              <p>Self Drive Car Rental in Vijayawada</p>
+              <p>Self Drive Car Rental in Vizag</p>
+          </div>
+      </div>
+  </div>
+  <div class="social-media">
+      <div id="social_container">
+          <div>
+              <div><img src="https://www.revv.co.in/imgs/revvLogo.png" alt=""></div>
+              <div class="social">
+                  <div><a href="https://www.facebook.com/revvindia/" class="fa fa-facebook"></a></div>
+                  <div><a href="https://twitter.com/revv_india" class="fa fa-twitter"></a></div>
+                  <div><a href="https://www.instagram.com/revv_india/" class="fa fa-instagram"></a></div>
+                  <div><a href="https://www.youtube.com/channel/UCdASUGQcRPefuQYO6rT331Q"
+                          class="fa fa-youtube-play"></a></div>
+                  <div><a href="https://www.linkedin.com/company/revv-self-drive-car" class="fa fa-linkedin"></a>
+                  </div>
+              </div>
+          </div>
+          <div class="contact_color1">
+              <div><a href="#">Home</a></div>
+              <div><a href="#">subscriptions</a></div>
+              <div><a href="#">tariffs</a></div>
+              <div><a href="faq_page.html">FAQ</a></div>
+              <div><a href="#">policy</a></div>
+              <div><a href="https://www.revv.co.in/blogs/">Blog</a></div>
+          </div>
+          <div>
+              <div>
+                  <h4 style="font-size: 22px;margin-bottom: 0px;">Have Questions?</h4>
+                  <p style="font-size: 16px;">24/7 Customer Support</p>
+              </div>
+              <div class="contact_color">
+                  <div><a href="#">Contact us</a></div>
+                  <div>
+                      <p>+91-9250035555 </p>
+                  </div>
+                  <div><a href="care@revv.co.in">care@revv.co.in</a></div>
+
+              </div>
+          </div>
+      </div>
+      <p style="font-size: 10px;"><b>&copy</b> Primemover Mobility Technologies Pvt Ltd. All rights reserved </p>
+  </div>
+  </div>
+</body>
+</html>
+<script src="./script/Rentdetails.js"></script>

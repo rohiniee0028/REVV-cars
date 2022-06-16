@@ -1,0 +1,403 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    color: #212529;
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    /* border:1px solid black; */
+    top: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 100;
+    background: #fff;
+    padding: 5px 10px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+#nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+#left_div>div {
+    margin-left: 25px;
+    margin-top: -20px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .55px;
+    text-align: left;
+    color: #59595a;
+    left: 26px;
+    width: 100px;
+
+}
+
+#left_div:hover {
+    cursor: pointer;
+}
+
+#spaniv {
+    background-color: rgb(244, 238, 238);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#right_div {
+    display: flex;
+    /* border:1px solid blue; */
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#right_div>div>a {
+    text-decoration: none;
+    color: #212529;
+    font-weight: 500;
+}
+
+#right_div>div:nth-child(1)>a {
+    color: #20c997;
+}
+
+#right_div>div:nth-child(1) {
+    border: 1px solid #20c997;
+    ;
+    padding: 5px 8px;
+    color: #212529;
+    border-radius: 5px;
+}
+
+#right_div>div>a>img {
+    width: 150px;
+}
+
+#right_div>div:hover {
+    cursor: pointer;
+}
+
+/* // sidebar---------------------- */
+
+#stocksDiv {
+    width: 75%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+}
+
+#filterDiv {
+    width: 20%;
+    /* border: 1px solid blue; */
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#filt>div {
+    color: #868686;
+    font: 18px poppins;
+    font-weight: bold;
+}
+
+.sameAS {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(27, 28, 36, 0.8);
+    margin-bottom: 10px;
+}
+
+#cityDivision>div:nth-child(2)>select {
+    display: flex;
+    width: 230px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(181, 175, 175);
+}
+
+#searchDivision>div:nth-child(2) {
+    display: flex;
+    border: 1px solid grey;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+#searchDivision>div:nth-child(2)>input {
+    outline: none;
+    border: none;
+    padding: 5px 5px 0px 10px;
+    background-color: #fff;
+    color: rgb(21, 19, 19);
+    font-weight: bold;
+}
+
+#searchDivision>div:nth-child(2)>span>i {
+    color: #20c997;
+}
+
+#pricediv {
+    margin-bottom: 10px;
+}
+
+#label {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #868686;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#label>label:nth-child(2) {
+    margin-left: 100px;
+}
+
+#pricetags {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pricetags>div>select {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-bottom: 1px solid rgb(181, 175, 175);
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+}
+
+#carAvail>div:nth-child(2)>select {
+    display: flex;
+    width: 230px;
+    border: none;
+    border-bottom: 1px solid rgb(181, 175, 175);
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+}
+
+#carAvail>div:nth-child(2)>div {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sections>div {
+    display: flex;
+    font-size: 16px;
+    gap: 10px;
+    color: #282B23;
+    font-family: Poppins;
+    text-align: left;
+    color: #282b33;
+    text-transform: capitalize;
+}
+
+.sections>div>input {
+    width: 19px;
+    height: 19px;
+    border: 1px solid #212529;
+}
+
+/* //mapping of cars data */
+#main_Data{
+    width:90%;
+    /* border: 1px solid red;  */
+    margin-top: 70px; 
+}
+
+#showCarsData {
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.boxdiv {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* border: 1px solid grey; */
+    background-color: #fff;
+    /* margin-bottom: 10px; */
+    /* padding-top: 10px; */
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.box23div {
+    width: 50%;
+    display: flex;
+}
+
+.box4div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box2div {
+    width: 50%;
+}
+
+.image_url {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    border-bottom-left-radius: 10px;
+}
+
+.div1div {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-left: 20px;
+}
+.availdiv{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 3.09;
+    color: #1baba1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 2px 5px 0;
+    max-width: 166px;
+    height: 24px;
+    background-color: #f7f7f7;
+}
+.stkdiv{
+    font-size: 23px;
+    font-weight: 500;
+    color: #8e909f;
+    text-decoration: line-through;
+    margin-top: -15px;
+}
+.namediv{
+    color:#1B1C24;
+}
+.fuel_typediv{
+    font-family: Poppins;
+    line-height: 1.58;
+    text-align: left;
+    color: rgba(89,89,105,.8);
+    font-size: 18px;
+}
+.manualdiv{
+    font-family: Poppins;
+    line-height: 1.58;
+    text-align: right;
+    color: rgba(89,89,105,.8);
+    font-size: 18px; 
+}
+#parah2{
+    font-size:20px;
+    color: rgba(89,89,105,.8);
+    font-weight: bold;
+    padding: 10px 0px 10px 20px;
+}
+#flexmyDiv{
+    display: flex;
+    justify-content: space-between;
+    width:98%;
+}
+#sorting{
+    width:120px;
+    font-size: 16px;
+    border: none;
+    color:rgba(89,89,105,.8);
+    font-weight: bold;
+    outline:none;
+}
+
+@media only screen and (max-width:770px){
+    #nav {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+    #right_div {
+        display: flex;
+        /* border:1px solid blue; */
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+        font-size: 13px;
+    }
+    #right_div>div:nth-child(1){
+        border:1px solid rgb(187, 186, 186);
+        padding: 0px 5px;
+        color:#212529;
+        border-radius: 5px;
+        text-align: center;
+      }
+      #right_div>div:nth-child(2){
+          border:1px solid rgb(187, 186, 186);
+        padding: 0px 5px;
+        color:#212529;
+        border-radius: 5px;
+        text-align: center;
+      }
+      #right_div>div:nth-child(3){
+           margin-left: 10px;
+      }
+      #right_div>div:nth-child(4){
+        margin-left: -22px;
+      }
+      #right_div>div:nth-child(5){
+        margin-left: -8px;
+        margin-right: 15px;
+      }
+
+      #stocksDiv {
+        width: 96%;
+        /* border: 1px solid red; */
+        display: flex;
+        margin: auto;
+    }
+    
+    #filterDiv {
+        width: 15%;
+        /* border: 1px solid blue; */
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+        background-color: #fff;
+    }
+    
+    
+    
+
+}

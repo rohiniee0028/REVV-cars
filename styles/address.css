@@ -1,0 +1,338 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    color: #212529;
+}
+#navbar {
+    display: flex;
+    width: 100%;
+    /* border:1px solid black; */
+    top: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 100;
+    background: #fff;
+    padding: 5px 10px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+#nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+#left_div>div {
+    margin-left: 25px;
+    margin-top: -20px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .55px;
+    text-align: left;
+    color: #59595a;
+    left: 26px;
+    width: 100px;
+
+}
+
+#left_div:hover {
+    cursor: pointer;
+}
+
+#spaniv {
+    background-color: rgb(244, 238, 238);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#right_div {
+    display: flex;
+    /* border:1px solid blue; */
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#right_div>div>a {
+    text-decoration: none;
+    color: #212529;
+    font-weight: 500;
+}
+
+#right_div>div:nth-child(1)>a {
+    color: #20c997;
+}
+
+#right_div>div:nth-child(1) {
+    border: 1px solid #20c997;
+    ;
+    padding: 5px 8px;
+    color: #212529;
+    border-radius: 5px;
+}
+
+#right_div>div>a>img {
+    width: 150px;
+}
+
+#right_div>div:hover {
+    cursor: pointer;
+}
+
+/* //address section starts */
+
+#main-address-container{
+    width:70%;
+    display: flex;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+#for-flexing-only{
+    display:flex;
+    gap:10px;
+    margin-top: -25px;
+}
+#fuel-data{
+    display:flex;
+    gap:5px;
+    font-family: Poppins;
+    font-size: 16px;
+    color: rgba(89,89,105,.8);
+}
+#work-data{
+    display:flex;
+    gap:5px;
+    font-family: Poppins;
+    font-size: 16px;
+    color: rgba(89,89,105,.8);
+}
+
+#carsCity-name{
+    display: flex;
+    gap:5px;
+    font-family: Poppins;
+    font-size: 16px;
+    color: rgba(89,89,105,.8);
+    margin: -5px;
+}
+#extra-information{
+    padding: 0px 20px 20px 20px;
+    width:45%;
+    /* border: 1px solid black; */
+}
+#extra-information>div:nth-child(2){
+    margin-top: 20px;
+    border-top: 1px dashed rgba(89,89,105,.5);
+}
+#extra-information>div:nth-child(2)>div{
+    margin-top: 20px;
+    display: flex;
+    gap:10px;
+}
+#nextLines{
+    font-size: 22px;
+    font-weight: 700;
+    /* line-height: 1; */
+    color: rgba(27,28,36,.8);
+}
+#myCars-name{
+        font-weight: bold;
+        line-height: 1.17;
+        color: rgb(27, 28, 36);
+}
+#put-name{
+    margin-top: -10px;
+}
+#delivery-address{
+    width:65%;
+}
+#thankyou{
+    font-size: 18px;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #05bab5;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}
+#Fast-div{
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #fff;
+    padding-top: 25px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+#Fast-div>div:nth-child(1){
+    display: flex;
+    padding-left: 20px;
+}
+.Fast-Flexi{
+  border-radius: 50px;  
+  position: absolute;
+  cursor: pointer;
+  pointer-events:all;
+  width: 92%;
+  height:2.5%;
+  /* z-index: 2; */
+  left: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  margin-left:20px;
+  cursor: pointer;
+}
+.upKro{
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    color: #1b1c24;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.little-compress{
+    padding:10px 30px 10px 55px;
+}
+.little-compress>div{
+    border-radius: 4px;
+    border: 2px solid #e2e6ea;
+    background-color: #f0f3f7;
+    width: 82%;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #1b1c24;  
+}
+.little-compress>ul>li{
+    font-size: 15px;
+    line-height: 2;
+    color: rgba(27,28,36,.8);
+}
+#deliveryLocation{
+    display: flex;
+    gap:10px;
+}
+#deliveryLocation>img{
+    height:25px;
+    width: 25px;
+}
+#address{
+    overflow: auto;
+    width:78%;
+    height:20px;
+    outline:none;
+    border: none;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    font-size: 16px;
+    font-weight: bold;
+}
+#select-date{
+    display: flex;
+    gap:10px;
+    cursor: pointer;
+}
+#select-date>img{
+    height:25px;
+    width: 25px;
+    cursor: pointer;
+}
+#date{
+    border: none;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    font-size: 16px;
+    font-weight: bold;
+    overflow: auto;
+    width:78%;
+    height:20px;
+    outline:none;
+    cursor: pointer;
+}
+#mobile-num{
+  display: flex;
+  gap:5px;
+}
+#mobile-num>i{
+    height:25px;
+    width: 25px; 
+    color:rgb(159, 148, 148);
+    margin-left: 5px;
+}
+#mob{
+    border: none;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    font-size: 16px;
+    font-weight: bold;
+    overflow: auto;
+    width:78%;
+    height:20px;
+    outline: none;
+}
+#Flexi-div{
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #fff;
+    padding-top: 25px;
+    margin-top: 20px;
+    padding-bottom: 10px; 
+}
+#Flexi-div>div:nth-child(1){
+    display: flex;
+    padding-left: 20px;
+}
+#givePrice{
+    font-size: 20px;
+}
+#Proceedpay{
+    width:100%;
+    height:40px;
+    border-radius: 5px;
+    background-image: linear-gradient(270deg,#1caba2 25%,#1c7fab);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    color: #fff;
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:770px){
+    #nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+    #right_div {
+        display: flex;
+        /* border:1px solid blue; */
+        justify-content: space-evenly;
+        width: 70%;
+        align-items: center;
+    }
+    
+
+}
+
+

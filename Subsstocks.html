@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/Subsstocks.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="nav">
+          <div id="left_div">
+            <img src="https://www.revv.co.in/grapheneImages/newopen/logo.svg">
+            <div>Sanitised. Safe</div>
+          </div>
+          <div id="right_div">
+            <div><a href=""><i class="fa-solid fa-phone"></i> Call us</a></div>
+            <div><a href="">FAQs</a></div>
+            <div data-modal-target="#modal">
+              <span id="spaniv">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+              </span>
+              <a data-modal-target="#modal"> Login or Signup</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //below part starts-------------- -->
+
+      <!-- sidebar starts -->
+
+     <div id="stocksDiv">
+        <div id="filterDiv">
+           <div id="filt">
+            <div>Filter By</div>
+           </div>
+           <div id="cityDivision">
+            <div class="sameAS">City</div>
+              <div id="filled">
+                  <select id = "filtercitybox" onchange ="selectcity()">
+                    <option value ="">Select City</option>
+                    <option value ="Mumbai">Mumbai</option>
+                    <option value = "Bangalore">Bangalore</otion>
+                   <option value="Chennai">Chennai</option>
+                   <option value="Hyderabad">Hyderabad</option>
+                   <option value="Delhi-NCR">Delhi-NCR</option>
+                   <option value="Kolkata">Kolkata</option>
+                   </select>
+              </div>
+           </div>
+           <div id="searchDivision">
+             <div class="sameAS">Search</div>
+             <div>
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="search" placeholder="Search by Car Model" id="SearchCar">
+            </div>
+           </div>
+           <div id="pricediv">
+              <div class="sameAS">Price Range</div>
+              <div>
+                <div id="label">
+                    <label>Min</label>
+                    <label>Max</label>
+                </div>
+                <div id="pricetags">
+                        <div id ="minrange">
+                          <select id ="minprice" onchange ="selectminprice()">
+                            <option value="10500">₹10,500</option>
+                            <option value="11500">₹11,500</option>
+                            <option value="12500">₹12,500</option>
+                            <option value="13500">₹13,500</option>
+                            <option value="14500">₹14,500</option>
+                            <option value="15500">₹15,500</option>
+                            </select>
+                        </div>
+                        <div  id ="maxrange">
+                          <select id ="maxprice" onchange ="selectmaxprice()">
+                            <option value="13500">₹13,500</option>
+                            <option value="14500">₹14,500</option>
+                            <option value="15500">₹15,500</option>
+                            <option value="18500">₹18,500</option>
+                            <option value="20500">₹20,500</option>
+                            <option value="22500">₹22,500</option>
+                            </select> 
+                        </div>
+                </div>
+              </div>
+           </div>
+           <div id="carAvail">
+             <div class="sameAS">Car Availability</div>
+             <div>
+                  <select id ="cardays">
+                    <option value="10500">In 3 days</option>
+                    <option value="11500">In 7 days</option>
+                    <option value="12500">In 15 days</option>
+                    <option value="13500">In 30 days</option>
+                  </select>
+            </div>
+           </div>
+           <div id="segmentsdiv">
+             <div class="sameAS">Segments</div>
+             <div class="sections">
+                <div ><input class="segmentCheck" type="checkbox" value="Hatchback" oninput="carType()">Hatchback</div>
+                <div><input class="segmentCheck" type="checkbox" value="Sedan" oninput="carType()">Sedan</div>
+                <div><input class="segmentCheck" type="checkbox" value="SUV/MUV" oninput="carType()">SUV/MUV</div>
+             </div>
+           </div>
+           <div id="Fueldiv">
+            <div class="sameAS">Fuel</div>
+            <div class="sections">
+               <div><input class="fuel_type" type="checkbox" oninput="fuel_type()" value="Diesel"> Diesel</div>
+               <div><input class="fuel_type" type="checkbox" oninput="fuel_type()" value="Diesel"> Petrol</div>
+            </div>
+          </div>
+          <div id=">Tranmissiondiv">
+            <div class="sameAS">Tranmission</div>
+            <div class="sections" onclick="work_type()">
+               <div><input class="work_type" type="checkbox" value="Automatic"> Automatic</div>
+               <div><input class="work_type" type="checkbox" value="Manual"> Manual</div>
+            </div>
+          </div>
+          <div id="Branddiv">
+            <div class="sameAS">Brand</div>
+            <div class="sections" oninput="selectbrand()">
+               <div><input class="brand_type" type="checkbox" value="Hyundai" > Hyundai</div>
+               <div><input class="brand_type" type="checkbox" value="Maruti" > Maruti</div>
+               <div><input class="brand_type" type="checkbox" value="Mahindra" > Mahindra</div>
+               <div><input class="brand_type" type="checkbox" value="Honda" > Honda</div>
+            </div>
+          </div>
+        </div>
+        <div id="main_Data">
+          <div id="flexmyDiv">
+            <div id="parah2"></div>
+            <select id="sorting" onchange="sortprice()">
+              <option value="">Sort by</option>
+               <option value="Lth">Low to High</option>
+               <option value="Htl">High to Low</option>
+            </select>
+          </div>
+          <div id="showCarsData">
+
+          </div>
+        </div>
+        
+     </div> 
+</body>
+</html>
+<script src="./script/Subsstocks.js"></script>

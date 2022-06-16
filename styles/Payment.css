@@ -1,0 +1,155 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    color: #212529;
+}
+#navbar {
+    display: flex;
+    width: 100%;
+    /* border:1px solid black; */
+    top: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 100;
+    background: #fff;
+    padding: 5px 10px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+#nav {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+#left_div>div {
+    margin-left: 25px;
+    margin-top: -20px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .55px;
+    text-align: left;
+    color: #59595a;
+    left: 26px;
+    width: 100px;
+
+}
+#nav>a{
+    text-decoration: none;
+    color: #59595a;
+}
+#left_div:hover {
+    cursor: pointer;
+}
+#payment-Div{
+    width: 494px;
+    margin: 0 auto 97px;
+    padding-top: 114px;
+}
+#box-shadow{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#pay-heading{
+    height: 66px;
+    background-color: #0ebaba;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px 4px 0 0;
+    align-items: center;
+}
+#title{
+    font-size: 17px;
+    line-height: .75;
+    text-align: left;
+    font-weight: bold;
+    color: #fff;
+}
+#sub-title{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.09;
+    text-align: left;
+    color: #fff;
+    margin-top: 5px;
+}
+#amount-paid{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#nextpay-div{
+    width:90%;
+    padding: 30px 28px;
+}
+.sameFunc{
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 18px 20px;
+    background-color: hsla(0,0%,94.1%,.53);
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.sameFunc>div>img{
+    width: 23px;
+    height: auto;
+    margin-right: 10px;
+}
+#paytm>img,#amazon>img{
+    width: 64px;
+    height: auto;
+}
+#paytm,#amazon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 18px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: hsla(0,0%,94.1%,.53);
+}
+.sameFunc>i{
+    color:#0ebaba;
+    font-size: 20px;
+}
+#paytm,#amazon>a{
+    color:#0ebaba; 
+    font-weight: 500;
+}
+#right_div>div:nth-child(6)>a:hover{
+    color:#20c997;;
+}
+
+
+@media only screen and (max-width:770px){
+    #nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+    #right_div {
+        display: flex;
+        /* border:1px solid blue; */
+        justify-content: space-evenly;
+        width: 70%;
+        align-items: center;
+    }
+    
+
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/address.css">
+</head>
+
+<body>
+
+    <div id="navbar">
+        <div id="nav">
+            <div id="left_div">
+                <img src="https://www.revv.co.in/grapheneImages/newopen/logo.svg">
+                <div>Sanitised. Safe</div>
+            </div>
+            <div id="right_div">
+                <div><a href=""><i class="fa-solid fa-phone"></i> Call us</a></div>
+                <div><a href="">FAQs</a></div>
+                <div data-modal-target="#modal">
+                    <span id="spaniv">
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </span>
+                    <a data-modal-target="#modal"> Login or Signup</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- //navbar ends -->
+
+    <div id="main-address-container">
+        <div id="extra-information">
+            <div>
+                <span id="myCars-name"></span>
+                <div id="for-flexing-only">
+                    <span id="fuel-data">
+                        <img src="https://www.revv.co.in/grapheneImages/summary-page/petrol-icon.svg">
+                        <span id="put-fuel"></span>
+                    </span>
+                    <span id="work-data">
+                        <img src="https://www.revv.co.in/grapheneImages/summary-page/transmission-icon.svg">
+                        <span id="put-work"></span>
+                    </span>
+                </div>
+                <div id="carsCity-name">
+                    <img src="https://www.revv.co.in/grapheneImages/summary-page/city-icon.svg">
+                    <span id="put-name"></span>
+                </div>
+            </div>
+            <div>
+                <div id="nextLines">Next Steps</div>
+                <div>
+                    <img src="https://www.revv.co.in/imgs/icons/group-886.svg">
+                    <span>Car reserved</span>
+                </div>
+                <div>
+                    <img src="	https://www.revv.co.in/imgs/icons/white-circle.svg">
+                    <span>Make payment and complete booking</span>
+                </div>
+                <div>
+                    <img src="	https://www.revv.co.in/imgs/icons/white-circle.svg">
+                    <span>We will call you for super fast processing</span>
+                </div>
+            </div>
+        </div>
+        <div id="delivery-address">
+            <div id="thankyou">Thank you for reserving the car! Please select the payment plan.</div>
+            <div id="Fast-div">
+                <div>
+                    <input type="radio" class="Fast-Flexi">
+                    <span class="upKro">Fast</span>
+                </div>
+                <div class="little-compress">
+                    <div>Pay <b><span id="givePrice"></span></b> to confirm booking</div>
+                    <ul>
+                        <li>Fully refundable for next 5 days</li>
+                    </ul>
+                </div>
+                <div class="little-compress" id="deliveryLocation">
+                    <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/locationIcon.png">
+                    <input type="address" id="address" placeholder="Enter delivery location">
+                </div>
+                <div class="little-compress" id="select-date">
+                    <img src="https://www.revv.co.in/assets/RentalImages/HomeScreen/calenderIcon.png">
+                    <input id="date" type="datetime-local" placeholder="Select delivery date" >
+                </div>
+                <div class="little-compress" id="mobile-num">
+                    <i class="fa-solid fa-mobile"></i>
+                    <input type="number" id="mob" placeholder="Enter mobile number">
+                </div>
+            </div>
+            <div id="Flexi-div">
+                <div>
+                    <input type="radio" class="Fast-Flexi">
+                    <span class="upKro">Flexi</span>
+                </div>
+                <div class="little-compress">
+                    <div>Pay 
+                        <b style="font-size:20px">₹2,000</b>
+                         to reserve
+                    </div>
+                    <ul>
+                        <li>Fully refundable for next 5 days</li>
+                        <li>We will contact you to start processing</li>
+                        <li>Pay balance Rs 33499 of booking amount anytime later</li>
+                    </ul>
+                </div>  
+            </div>
+            <div id="Proceedpay">
+                <span>Proceed to pay </span>
+                <span id="print-money"></span>
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./script/address.js"></script>
