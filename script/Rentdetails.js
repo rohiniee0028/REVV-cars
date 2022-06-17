@@ -1,4 +1,4 @@
-let carDetails = JSON.parse(localStorage.getItem("myCarItems"));
+let carDetails = JSON.parse(localStorage.getItem("carItems"));
 
 carDetails.map(function (elem) {
 

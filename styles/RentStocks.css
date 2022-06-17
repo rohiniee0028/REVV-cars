@@ -65,8 +65,10 @@ body {
     color: #212529;
     font-weight: 500;
 }
-#right_div>div:nth-child(6)>a:hover{
-    color:#20c997;;
+
+#right_div>div:nth-child(6)>a:hover {
+    color: #20c997;
+    ;
 }
 
 #right_div>div:nth-child(1)>a {
@@ -222,22 +224,22 @@ body {
 }
 
 /* //mapping of cars data */
-#mainRent_Data{
-    width:98%;
+#mainRent_Data {
+    width: 98%;
     /* border: 1px solid red;  */
-    margin-top: 60px; 
+    margin-top: 60px;
     margin-left: 20px;
 }
 
 #showCarsData {
-    width:98%;
+    width: 98%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     justify-content: center;
     text-align: center;
     gap: 20px;
-    margin:auto;
+    margin: auto;
     margin-top: 20px;
 }
 
@@ -246,62 +248,69 @@ body {
     flex-direction: column;
     /* align-items: center; */
     /* border: 1px solid grey; */
-    background-color: #e3e3e3;;
+    background-color: #e3e3e3;
+    ;
     /* margin-bottom: 10px; */
     padding: 10px;
     border-radius: 5px;
-    gap:5px;
+    gap: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-.box1div{
+
+.box1div {
     display: flex;
     justify-content: space-evenly;
     color: #8e909f;
     font-weight: bold;
 }
+
 .box2div {
-   display: flex;
-   justify-content: space-evenly;
-   border-top: 1 px solid rgb(41, 33, 33);
-   margin-top: -10px;
-   box-sizing: border-box;
-   color: #8e909f;
-   font-weight: bold;
-   margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1 px solid rgb(41, 33, 33);
+    margin-top: -10px;
+    box-sizing: border-box;
+    color: #8e909f;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
+
 .image_url {
     width: 100%;
-    height:150px;
+    height: 150px;
     vertical-align: middle;
     border-style: none;
     border-radius: 10px;
 }
-.bookBtn{
+
+.bookBtn {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #0ebaba;
-    width:120px;
+    width: 120px;
     padding: 6px 20px 6px 20px;
     font-weight: bold;
     font-size: 1rem;
     line-height: 1.5;
-    color:#fff;
+    color: #fff;
     border: none;
-    transition: background-color .15s ease-in-out , border-color .15s ease-in-out , box-shadow .15s ease-in-out;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .box3div {
     display: flex;
     color: #8e909f;
 }
-.stkdiv{
+
+.stkdiv {
     font-size: 16px;
     font-weight: 500;
     color: #8e909f;
     text-decoration: line-through;
     margin-left: -5px;
 }
-.pricediv{
+
+.pricediv {
     color: #1baba1;
     font-weight: bold;
     font-size: 20px;
@@ -310,25 +319,184 @@ body {
     padding: 11px 30px 11px 30px;
     background-color: #fff;
 }
-.namediv{
-    color:#1B1C24;
+
+.namediv {
+    color: #1B1C24;
 }
-#parah2{
-    font-size:20px;
-    color: rgba(89,89,105,.8);
+
+#parah2 {
+    font-size: 20px;
+    color: rgba(89, 89, 105, .8);
     font-weight: bold;
     padding: 10px 0px 10px 20px;
 }
-#flexmyDiv{
+
+#flexmyDiv {
     display: flex;
     justify-content: space-between;
-    width:98%;
+    width: 98%;
 }
-#sorting{
-    width:120px;
+
+#sorting {
+    width: 120px;
     font-size: 16px;
     border: none;
-    color:rgba(89,89,105,.8);
+    color: rgba(89, 89, 105, .8);
     font-weight: bold;
-    outline:none;
+    outline: none;
+}
+
+@media only screen and (max-width:770px) {
+    #nav {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+
+    #right_div {
+        display: flex;
+        /* border:1px solid blue; */
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    #right_div>div:nth-child(1) {
+        border: 1px solid rgb(187, 186, 186);
+        padding: 0px 5px;
+        color: #212529;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    #right_div>div:nth-child(2) {
+        border: 1px solid rgb(187, 186, 186);
+        padding: 0px 5px;
+        color: #212529;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    #right_div>div:nth-child(3) {
+        margin-left: 10px;
+    }
+
+    #right_div>div:nth-child(4) {
+        margin-left: -22px;
+    }
+
+    #right_div>div:nth-child(5) {
+        margin-left: -8px;
+        margin-right: 15px;
+    }
+
+    #stocksDiv {
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 10px;
+        display: flex;
+        margin: auto;
+    }
+
+    #filterDiv {
+        width: 15%;
+        /* border: 1px solid blue; */
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-right: 10px;
+        background-color: #fff;
+    }
+
+    #cityDivision>div:nth-child(2)>select {
+        display: flex;
+        width: 150px;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid rgb(181, 175, 175);
+    }
+
+    #searchDivision>div:nth-child(2) {
+        display: flex;
+        border: 1px solid grey;
+        padding: 8px;
+        margin-top: 10px;
+        overflow: hidden;
+        width: 160px;
+    }
+
+    #searchDivision>div:nth-child(2)>input {
+        outline: none;
+        border: none;
+        padding: 5px 5px 0px 10px;
+        background-color: #fff;
+        color: rgb(21, 19, 19);
+        font-weight: bold;
+    }
+
+    #mainRent_Data {
+        width: 98%;
+        /* border: 1px solid red;  */
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    #showCarsData {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #sorting {
+        width: 90px;
+        font-size: 16px;
+        border: none;
+        color: rgba(89, 89, 105, .8);
+        font-weight: bold;
+        outline: none;
+        margin-right: 20px;
+    }
+
+    .box3div {
+        margin: auto;
+        display: flex;
+        color: #8e909f;
+    }
+
+    #label {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 12px;
+        color: #868686;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    #label>label:nth-child(2) {
+        margin-left: 100px;
+    }
+
+    #pricetags>div>select {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        border-bottom: 1px solid rgb(181, 175, 175);
+        gap: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        outline: none;
+    }
 }
