@@ -10,9 +10,9 @@ https://drive.google.com/file/d/1Y5vCve1bq8W0SFsg65lqRWXrxoIutoh_/view?usp=shari
 
 
 ## Tech Stack
-HTML: 53.5% 
-CSS : 29.5%
-JS : 17.0%
+HTML: 53.5% ,
+CSS : 29.5% ,
+JS : 17.0% ,
 
 
 ## Website Flow
@@ -24,17 +24,6 @@ Products detail page,
 Address Page,
 Payment Page,
 Payment successful Page
-
-
-
-
-
-
-
-
-
-
- 
 
 
 ## Screenshots
@@ -113,9 +102,9 @@ Payment Successful page:
 ![App Screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEn7eIhmO8EJgkzDNsosZGmil64SPfhUma7nsVTkI5mR0guCzFQSCOhetCnxcGYca3iaJETIRSaIIah1hRucVgZJVNhC_GOQ8pb34PCBI-RvE0kKM0Xu3Ob6C3fnNh90JdSyrEEGuXcG9ZxCx4jyGGLTlbHVbBrRpZZvhJR7f1_a74_Ggc0iLvFHTh/w633-h406/2022-06-16%20(23).png)
 ## Learnings
 
-Real-life implementation of HTML, CSS along with Advanced Javascript.
-Time-management and Accountability.
-Learn to work in pressure.
+Real-life implementation of HTML, CSS along with Advanced Javascript ,
+Time-management and Accountability ,
+Learn to work in pressure ,
 Learn to tackle problems and how to keep our-self motivated.
 
 
